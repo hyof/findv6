@@ -1,0 +1,17 @@
+{
+  "name": "findv6",
+  "version": "1.0.0",
+  "description": "get infos from v.6.cn, for study nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oldfish",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "superagent": "^3.5.2"
+  }
+}
