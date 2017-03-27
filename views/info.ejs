@@ -6,7 +6,7 @@
   <ul>
     <% info.forEach(function(user){ %>
       <li>
-        <%=user['href']%>
+        <a href='https://<%=user['href']%>' target="blank"><%=user['href']%></a>
       </li>
     <% }) %>
   </ul>
