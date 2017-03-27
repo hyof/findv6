@@ -1,0 +1,14 @@
+<head>
+    <meta charset="UTF-8">
+    <title>v.6.cn</title>
+</head>
+<body>
+  <ul>
+    <% info.forEach(function(user){ %>
+      <li>
+        <a href='https://v.6.cn/<%=user['uid']%>' target="blank"><%=user['uname']%> <div><img src="<%=user['imagePath']%>" /></div></a>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
